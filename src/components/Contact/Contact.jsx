@@ -4,6 +4,7 @@ import leetcode from "../../assets/leetcode_button_icon_151892.ico"
 import twitter from "../../assets/twitter_x_new_logo_x_icon_256077.ico"
 import linkedIn from "../../assets/in_linked_linkedin_media_social_icon_124259.ico"
 import insta from "../../assets/instagram.png"
+// import stackoverflow from "../../assets/stackoverflow.png" 
 
 const Contact = () => {
     return (
@@ -20,7 +21,8 @@ const Contact = () => {
                     <img src={leetcode} alt="leetcode" className="link" />
                     <img src={twitter} alt="twitter" className="link" />
                     <img src={linkedIn} alt="linkedIn" className="link" />
-                    <img src={insta} alt="insta" className="link" />
+                    <img src={insta} alt="insta" className="link"/>
+                    {/* <img src={stackoverflow} alt="stackoverflow" className="link" /> */}
                 </div>
             </form>
         </section>
