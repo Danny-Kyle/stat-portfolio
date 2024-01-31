@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
+import MobileMenuBars from "../../assets/mobilemenubars.svg"
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -13,7 +14,9 @@ const Navbar = () => {
           <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Portfolio</Link>
       </div>
       <button className="desktopMenuBtn" onClick={()=> {document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}}>Contact Me</button>
-      <p className='mobMenu' onClick={()=>setShowMenu(!showMenu)}>Caspian</p>
+      <p className='mobMenu' onClick={()=>setShowMenu(!showMenu)}>
+        <img src={MobileMenuBars} alt='mobilemenu'/>
+      </p>
       <div className="navMenu" style={{display: showMenu ? 'flex': 'none'}}>
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
           <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>

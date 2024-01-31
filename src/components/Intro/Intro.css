@@ -48,6 +48,7 @@
   border: none;
   border-radius: 2rem;
   width: 100pt;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 840px) {

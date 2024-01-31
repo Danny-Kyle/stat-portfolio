@@ -8,7 +8,7 @@ const Intro = () => {
     <section id="intro">
      <div className="introContent">
       <span className="hello"></span>
-      <span className="introText">I'm <span className="introName">Daniel</span> <br />Fullstack Developer</span>
+      <span className="introText">I'm <span className="introName">Daniel,</span> <br />A Fullstack Developer</span>
       <p className="introPara">I have experience with both Front and Back end Projects </p>
       <Link><button className="btn">Hire Me</button></Link>
      </div>

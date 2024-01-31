@@ -11,7 +11,10 @@ const Works = () =>{
             <h2 className="worksTitle">My Portfolio</h2>
             <span className="workDesc">I love giving as much attention as possible to the little details to ensure my work is pixel perfect. I am excited to contribute to the actualisation of business goals and aid in creating a strong online presence with the use of my skills and experience</span>
             <div className="worksImgs">
-                <img src={portfolio2} alt="" className="worksImg" />
+                <div className="workPropsContainer">
+                    <img src={portfolio2} alt="" className="worksImg" />
+                </div>
+                
                 <img src={portfolio3} alt="" className="worksImg" />
                 <img src={portfolio4} alt="" className="worksImg" />
                 <img src={portfolio5} alt="" className="worksImg" />
